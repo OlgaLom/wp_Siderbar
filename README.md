@@ -1,8 +1,7 @@
 # wp_Siderbar
 A category tree widget for wordpress woocommerce
 
-A product category tree with unlimited depth. 
-Folding functionality
+A product category tree with unlimited depth and folding functionality
 
 __Note__
 dont forget to include the widget file in functions.php lieks o
