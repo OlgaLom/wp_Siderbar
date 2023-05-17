@@ -1,0 +1,65 @@
+.widget_category_hierarchy_widget .widget-title{
+	display: flex;
+    align-items: center;
+    background-color: var(--brand_color_green);
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #c9c9c9; 
+}
+.widget_category_hierarchy_widget > ul{
+	padding-left: 0px;
+}
+.widget_category_hierarchy_widget > ul > li ul{
+	padding-left: 15px;
+}
+
+.widget_category_hierarchy_widget li {
+	list-style: none;
+}
+.widget_category_hierarchy_widget li .om_labelWRapper{
+	border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #c9c9c9;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.widget_category_hierarchy_widget li .om_labelWRapper a{
+	width: 100%;
+}
+.om_labelWRapper{
+	display: flex;
+    justify-content: space-between;
+}
+.om_cat_toggler{
+	font-size: 15px;
+	padding: 0px 10px;
+	font-size:20px;
+}
+.om_cat_toggler:hover{
+	cursor: pointer;
+}
+.widget_category_hierarchy_widget li.om_HasChildren > ul{
+	display: none;
+}
+.widget_category_hierarchy_widget .om_openedElemt > .om_labelWRapper .om_cat_toggler{
+	content:'-';
+}
+.widget_category_hierarchy_widget .om_openedElemt >ul.om_childrenWrapper{
+	display: block !important;
+}
+
+.om_openedElemt > .om_labelWRapper,
+.om_CurrentCat_item  > .om_labelWRapper{
+	background: #ee2375;
+	color: white;
+}
+
+.om_openedElemt > .om_labelWRapper a,
+.om_CurrentCat_item  > .om_labelWRapper a{
+	color: white;
+}
+.om_labelWRapper{
+	display: flex;
+	align-items: center;
+}
